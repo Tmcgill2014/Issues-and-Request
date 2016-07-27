@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<h1>Hello {{vm.user.fullName}}!</h1> 
+<p>Log in successful!</p> 
+<h3>All registered users</h3>
+ <ul> <li ng-repeat="user in vm.allUsers"> {{user.userID}} ({{user.password}} {{user.fullName}} {{user.status}} </li> 
+ </ul> <p>&nbsp;</p>
+  <p><a href="#/login" class="btn btn-primary">Logout</a></p>
+
+
+</body>
+</html>
+
